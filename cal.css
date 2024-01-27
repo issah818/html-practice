@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.calculator{
+    width: 800px;
+    margin-top: 20px;
+}
+#result{
+    background-color: darkslategray;
+    height: 80px;
+    color: white;
+    font-size: 50px;
+    text-align: end;
+}
+#last{
+    background-color: rgb(212, 141, 8);
+    height: 50px;
+    text-align: center;
+    color: white;
+    border-radius: 1px;
+    border-bottom: 0.5px solid black;
+}
+#number{
+    border: 0.5px solid rgb(125, 119, 119) ;
+    text-align: center;
+    font-weight: bold;
+}
+#num{
+    border-bottom: 0.5px solid black;
+    border-left: 0.5px solid black ;
+    font-weight: bold;
+}
